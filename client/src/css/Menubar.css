@@ -1,0 +1,48 @@
+.menubar {
+  width: 100%;
+  position:fixed;
+  z-index: 10;
+  font-weight: bold;
+  height: 100px;
+  top: 0;
+  font-family: "GmarketSansBold";
+}
+
+*:focus {
+  outline: 0;
+}
+
+.menubar_icons {
+  margin: auto auto;
+}
+
+@media screen and (min-width: 768px) {
+  .startButton {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  .menubar_name2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .menubar_name1 {
+    display: none;
+  }
+}
+
+.menubar_profile {
+  width: 35px;
+  background-image: url('../image/profile_icon.png');
+  background-size: 35px 35px;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.navbar-toggler:focus{
+  outline: none;
+  box-shadow: 0 0 0 0;
+}

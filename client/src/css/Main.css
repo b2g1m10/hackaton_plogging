@@ -1,0 +1,227 @@
+.main {
+  display: flex;
+  /* background-image: url(../image/mainBgImg.png); */
+  background-position: center top 100px;
+  background-size: auto;
+  align-items: center;
+  height: 4450px;
+  width: 100%;
+  flex-direction: column;
+  background-repeat: no-repeat;
+}
+
+
+.mainBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 3vh;
+  height: 60vh;
+  background-image: url(../image/mainbox1.png);
+  background-size: 100% 55vh;
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+
+.mainBox2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 50vh;
+  margin-top: 10vh;
+  background-image: url(../image/mainbox2.png);
+  background-size: 90vw 40vh;
+  background-repeat: no-repeat;
+  background-position: center left;
+
+}
+
+.mainInfo_text {
+  display: flex;
+ 
+  text-align: center;
+  font-family: "GmarketSansMedium";
+  font-size: 1.5rem;
+  
+}
+
+.main_festivalInfo {
+  display: flex;
+  width: 450px;
+  height: 450px;
+  align-items: center;
+}
+
+ 
+
+/* 768px까지 main2 안보이게 데탑 사이즈되면 자동으로 보임 */
+
+
+
+.headline1 {
+  display: flex;
+  margin-top: 120px;
+
+}
+
+.headline2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 60vh;
+  align-items: center;
+  justify-content: end;
+  background-image: url(../image/mainbox3.png);
+  background-size: 80vw 55vh;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.headline_text {
+  
+  color: white;
+  font-weight: bold;
+  font-size: 3.5rem;
+  letter-spacing: 0.3rem;
+  font-family: "GmarketSansBold";
+
+}
+
+.startButton {
+  display: flex;
+  margin-top: 40px;
+  width: 160px;
+  height: 50px;
+  background-image: url(../image/mainButton.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+
+}
+.eventButton {
+  display: flex;
+  margin-top: 15px;
+  width: 160px;
+  height: 50px;
+  background-image: url(../image/mainButton.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.1rem;
+  margin-bottom: 50px;
+}
+
+.mainBottom{
+  width: 100%;
+  height: 90vh;
+  background-image: url(../image/mainBottom.png);
+  background-position: center bottom;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.eventButtonText {
+  display: flex;
+  font-family: "GmarketSansMedium";
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+.startButtonText {
+  display: flex;
+  font-family: "GmarketSansMedium";
+  color: white;
+  letter-spacing: 0.3rem;
+}
+
+.startButton:hover {
+  width: 170px;
+  transition: 0.1s;
+  font-size: 1.2rem;
+
+  filter: brightness(80%);
+}
+.eventButton:hover {
+  width: 170px;
+  transition: 0.1s;
+  font-size: 1.2rem;
+
+  filter: brightness(80%);
+}
+
+
+* {
+  cursor: url(/public/user-solid.svg);
+}
+
+
+
+
+/* lg사이즈  */
+
+@media screen and (min-width: 1080px) {
+
+  .sliderBox {
+    width: 100%;
+   }
+
+  .sliderImg {
+     width: 100%;
+  
+  }
+
+  .sliderImg img {
+    height: 100vh;
+  
+  }
+
+  .eventButton {
+    margin-bottom: 100px;
+
+  }
+
+
+
+}
+
+@media screen and (min-width: 770px) {
+
+.eventButtonText {
+  letter-spacing: 0.3rem;
+}
+
+.startButtonText {
+  letter-spacing: 0.3rem;
+}
+
+}
+
+
+
+@media screen and (min-width: 350px) {
+
+  .eventButtonText {
+    letter-spacing: 0
+  }
+  
+  .startButtonText {
+    letter-spacing: 0
+  }
+  
+  }
+  
+
+ 
+
+
+ 
